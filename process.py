@@ -113,7 +113,7 @@ def process(data, folder, prefix):
 				offset = 0
 				page += 1
 		sample_n = sample_num(first_col)
-		template_wb['检验批']['BB8'] = sample_n
+		template_wb['检验批']['BB8'] = first_col
 		for i in range(12, 23):
 			template_wb['检验批']['AD{}'.format(i)] = sample_n
 			template_wb['检验批']['AI{}'.format(i)] = sample_n
